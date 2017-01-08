@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+.search {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.google_logo{
+    margin: 50px auto 0px;
+    width: 542px;
+    height: 183px;
+    background-image: url('../img/googlelogo.gif');
+}
+
+.search_results {
+    text-align: justify;
+    width: 600px;
+    margin: 0 auto; 
+}
+
+.search_header {
+    font-size: 70px; 
+}
+
+.search_input {
+    width: 586px;
+    height: 40px;
+    border: 1px solid lightgrey;
+    padding: 5px 10px;
+    margin: 20px auto 0;
+    
+}
+
+.search_input:hover{
+    border: 1px solid grey;
+}
+
+.search_input:focus{
+    border: 1px solid blue;
+}
+
+.search_input_results {
+    margin-top: 20px; 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+    margin: 10px auto;
+    height: 36px;
+    line-height: 27px;
+    -webkit-user-select: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    
+    padding: 0 16px;
+    text-align: center;
+}
+
+.result-item {
+    list-style: none;
+    display: block; 
+    margin: 20px 0; 
+}
+
+.link {
+    font-size: 18px;
+    text-decoration: none;
+    color: #1a0dab; 
+}
+
+.link:hover {
+    text-decoration: underline; 
+}
+
+.link:visited {
+    color: #609; 
+}
+
+.url {
+    font-size: 14px;
+    color: #006621; 
+}
+
+.brief {
+    line-height: 18px; 
+}
